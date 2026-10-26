@@ -28,7 +28,7 @@ async function githubJson(file) {
   if (!response.ok) throw new Error("GitHub API " + response.status);
   const payload = await response.json();
   if (payload.encoding !== "base64" || !payload.content) throw new Error("Invalid GitHub API response");
-  const binary = atob(payload.content.replace(/\\s/g, ""));
+  const binary = atob(payload.content.replace(/\s/g, ""));
   const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
   return JSON.parse(new TextDecoder().decode(bytes));
 }
