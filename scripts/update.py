@@ -289,7 +289,11 @@ def main() -> int:
         or os.environ.get("REPO")
         or DEFAULT_REPO
     )
-    raw_base = f"https://gh-proxy.org/https://raw.githubusercontent.com/{repo}/main/output"
+    raw_base = f"https://raw.githubusercontent.com/{repo}/main/output"
+    version = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M%S")
+    run_id = os.environ.get("GITHUB_RUN_ID")
+    if run_id:
+        version += f"-{run_id}-{os.environ.get('GITHUB_RUN_ATTEMPT', '1')}"
 
     status = {"updated_at": now_str, "repo": repo, "sources": []}
     subscriptions = []
@@ -314,7 +318,7 @@ def main() -> int:
                 entry["used_url"] = url
                 entry["error"] = None
                 subscriptions.append(
-                    {"name": name, "url": f"{raw_base}/{sid}.json"}
+                    {"name": name, "url": f"{raw_base}/{sid}.json?v={version}"}
                 )
                 fetched.append((sid, name, data))
                 ok_count += 1
@@ -337,7 +341,7 @@ def main() -> int:
                         cached = json.load(f)
                     if is_valid_tvbox_config(cached):
                         subscriptions.append(
-                            {"name": name, "url": f"{raw_base}/{sid}.json"}
+                            {"name": name, "url": f"{raw_base}/{sid}.json?v={version}"}
                         )
                         fetched.append((sid, name, cached))
                         entry["ok"] = True
