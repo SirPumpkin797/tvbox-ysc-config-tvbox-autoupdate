@@ -2,39 +2,39 @@
   "urls": [
     {
       "name": "肥猫",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/feimao.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/feimao.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "王二小",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/wangerxiao.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/wangerxiao.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "老刘备",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/laoliubei.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/laoliubei.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "小马",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/xiaoma.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/xiaoma.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "讴歌",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/ouge.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/ouge.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "4K小盒子",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/4k.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/4k.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "小盒子单仓",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/xiaohezi.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/xiaohezi.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "拾光多仓",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/shiguang.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/shiguang.json?v=20261027191426-40567268445-1"
     },
     {
       "name": "挺好分享多仓",
-      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/tinghao.json?v=20261027072017-40466498358-1"
+      "url": "https://raw.githubusercontent.com/SirPumpkin797/tvbox-ysc-config-tvbox-autoupdate/main/output/tinghao.json?v=20261027191426-40567268445-1"
     }
   ]
 }
